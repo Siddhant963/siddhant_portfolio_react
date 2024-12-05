@@ -1,0 +1,23 @@
+ [
+       {
+         "name": "Gmail",
+         "imageSrc": "../assets/gmail.png",
+         "link": "mailto:siddhantwork867@gmail.com"
+       },
+       {
+         "name": "GitHub",
+         "imageSrc": "../assets/github-image.png",
+         "link": "https://github.com/Siddhant963"
+       },
+       {
+         "name": "LinkedIn",
+         "imageSrc": "../assets/linkedin.png",
+         "link": "https://www.linkedin.com/in/siddhant-dubey0867/"
+       },
+       {
+         "name": "Phone",
+         "imageSrc": "../assets/phone.png",
+         "link": "tel:+916265004675"
+       }
+     ]
+   

@@ -1,0 +1,51 @@
+[
+     { "id": 1,
+       "title": "Basic Bank System Website",
+       "description": "A web application to manage customer transactions and balance statements.",
+       "points": [
+         "Allows users to view customer details and balances.",
+         "Facilitates secure transactions between customers.",
+         "Provides transaction history for accountability."
+       ],
+       "technology": ["HTML,", "CSS,", "JavaScript,", "PHP,", "SQL"],
+       "githubLink": "https://github.com/yourusername/basic-bank-system",
+       "image": "../assets/banks.png"
+     },
+     {"id": 2,
+       "title": "Blood Donor Website",
+       "description": "A platform for connecting blood donors with recipients in need.",
+       "points": [
+         "Allows users to register as donors or search for donors.",
+         "Provides a location-based search for donors.",
+         "Ensures secure data storage and privacy for users."
+       ],
+       "technology": ["HTML,", "CSS,", "JavaScript,", "Bootstrap", "PHP", "MySQL"],
+       "githubLink": "https://github.com/yourusername/blood-donor-website",
+       "image": "../assets/blood_help.jpg"
+     },
+     {"id": 3,
+       "title": "Milestone Tracker Tool",
+       "description": "A project management tool to track milestones and progress.",
+       "points": [
+         "Allows users to create and manage project milestones.",
+         "Features deadline tracking and notifications.",
+         "Generates progress reports for analysis."
+       ],
+       "technology": ["React,", "Node.js,", "MongoDB"],
+       "githubLink": "https://github.com/yourusername/milestone-tracker",
+       "image": "../assets/milestone.png"
+     },
+     {"id": 4,
+       "title": "Own Portfolio",
+       "description": "A personal portfolio website showcasing projects and skills.",
+       "points": [
+         "Highlights skills, projects, and professional achievements.",
+         "Responsive design optimized for various devices.",
+         "Integrated with GitHub and LinkedIn for connectivity."
+       ],
+       "technology": ["react js ", " ,Tailwind CSS"],
+       "githubLink": "https://github.com/yourusername/portfolio",
+       "image": "../assets/portfolio.png"
+     }
+   ]
+   

@@ -1,0 +1,41 @@
+[
+       {
+         "role": "PHP Developer",
+         "company": "72 DRAGONS, LLC",
+         "employmentType": "Full-time",
+         "duration": "Mar 2024 - Present",
+         "tenure": "10 mos",
+         "location": "Hong Kong SAR · Remote",
+         "description": "72 Dragons’ global production services supports many types of creative organizations across a broad range of services.where i am working as a backend php developer",
+        
+         "skills": ["PHP, ", "SQL ,", "Workbench, ","AJAX ,", "Testing" ," and more..."]
+ ,
+         "profile": "../assets/72_dragons.jpg"
+       },
+       {
+         "role": "Founder",
+         "company": "DEV PLUS CODE",
+         "employmentType": "Part-time",
+         "duration": "Mar 2023 - Present",
+         "tenure": "1 yr 10 mos",
+         "location": "Jabalpur, Madhya Pradesh, India · On-site",
+         "description": "Founder and Instructor at Devpluscode Community, Jabalpur, India January 2023 - Present",
+         "skills": ["Management,", "Leadership,", "Teaching" ," and more..."]
+         ,
+         "profile": "../assets/devcode.jpg"
+       },
+       {
+         "role": "Intern",
+         "company": "The Sparks Foundation",
+         "employmentType": "Internship",
+         "duration": "Feb 2023 - Mar 2023",
+         "tenure": "2 mos",
+         "location": "Remote",
+         "description": "Web Development and Design Intern at The Sparks Foundation, Singapore Feb 2023 - March 2023",
+         "skills": ["HTML,", "CSS,", "SQL,", "Postman API," ,"php,","phpmyadmin" ," and more..."],
+         "certificate": "internship_certification.pdf",
+         "profile": "../assets/spark.jpg"
+       }
+     ]
+   
+   
