@@ -3,14 +3,14 @@ import pro from './data/Projects.json'
 const Project = () => {
   return (
 <>
-<div className=" project">
+<div className=" project" id='project'>
   <h1>PROJECTS </h1>
   <div className="project_items">
     { 
       pro.map((data)=>{ 
         return (
           <>
-         <div className="card crd"  key={data.id}>
+         <div className="card crd"  key={data.id} data-aos="zoom-out-right" data-aos-durestion="1500" >
           <img src={data.image} alt="" className="card-img-top" />
           <div className="card-body">
             <h5 className="card-title">{data.title}</h5>
