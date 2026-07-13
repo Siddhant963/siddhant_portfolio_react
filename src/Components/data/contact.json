@@ -1,23 +1,32 @@
- [
-       {
-         "name": "Gmail",
-         "imageSrc": "../assets/gmail.png",
-         "link": "mailto:siddhantwork867@gmail.com"
-       },
-       {
-         "name": "GitHub",
-         "imageSrc": "../assets/github-image.png",
-         "link": "https://github.com/Siddhant963"
-       },
-       {
-         "name": "LinkedIn",
-         "imageSrc": "../assets/linkedin.png",
-         "link": "https://www.linkedin.com/in/siddhant-dubey0867/"
-       },
-       {
-         "name": "Phone",
-         "imageSrc": "../assets/phone.png",
-         "link": "tel:+916265004675"
-       }
-     ]
-   
+[
+  {
+    "name": "Email",
+    "value": "siddhantdubey867@gmail.com",
+    "icon": "email",
+    "link": "mailto:siddhantdubey867@gmail.com"
+  },
+  {
+    "name": "Phone",
+    "value": "+91 62650 04675",
+    "icon": "phone",
+    "link": "tel:+916265004675"
+  },
+  {
+    "name": "LinkedIn",
+    "value": "linkedin.com/in/siddhant-dubey0867",
+    "icon": "linkedin",
+    "link": "https://www.linkedin.com/in/siddhant-dubey0867/"
+  },
+  {
+    "name": "GitHub",
+    "value": "github.com/sidddhant963",
+    "icon": "github",
+    "link": "https://github.com/sidddhant963"
+  },
+  {
+    "name": "Location",
+    "value": "Jabalpur, Madhya Pradesh, India",
+    "icon": "location",
+    "link": "https://www.google.com/maps/place/Jabalpur"
+  }
+]

@@ -1,51 +1,61 @@
 [
-     { "id": 1,
-       "title": "Basic Bank System Website",
-       "description": "A web application to manage customer transactions and balance statements.",
-       "points": [
-         "Allows users to view customer details and balances.",
-         "Facilitates secure transactions between customers.",
-         "Provides transaction history for accountability."
-       ],
-       "technology": ["HTML,", "CSS,", "JavaScript,", "PHP,", "SQL"],
-       "githubLink": "https://github.com/yourusername/basic-bank-system",
-       "image": "../assets/banks.png"
-     },
-     {"id": 2,
-       "title": "Blood Donor Website",
-       "description": "A platform for connecting blood donors with recipients in need.",
-       "points": [
-         "Allows users to register as donors or search for donors.",
-         "Provides a location-based search for donors.",
-         "Ensures secure data storage and privacy for users."
-       ],
-       "technology": ["HTML,", "CSS,", "JavaScript,", "Bootstrap", "PHP", "MySQL"],
-       "githubLink": "https://github.com/yourusername/blood-donor-website",
-       "image": "../assets/blood_help.jpg"
-     },
-     {"id": 3,
-       "title": "Milestone Tracker Tool",
-       "description": "A project management tool to track milestones and progress.",
-       "points": [
-         "Allows users to create and manage project milestones.",
-         "Features deadline tracking and notifications.",
-         "Generates progress reports for analysis."
-       ],
-       "technology": ["React,", "Node.js,", "MongoDB"],
-       "githubLink": "https://github.com/yourusername/milestone-tracker",
-       "image": "../assets/milestone.png"
-     },
-     {"id": 4,
-       "title": "Own Portfolio",
-       "description": "A personal portfolio website showcasing projects and skills.",
-       "points": [
-         "Highlights skills, projects, and professional achievements.",
-         "Responsive design optimized for various devices.",
-         "Integrated with GitHub and LinkedIn for connectivity."
-       ],
-       "technology": ["react js ", " ,Tailwind CSS"],
-       "githubLink": "https://github.com/yourusername/portfolio",
-       "image": "../assets/portfolio.png"
-     }
-   ]
-   
+  {
+    "id": 1,
+    "title": "TrustFolio",
+    "description": "AI-powered price-comparison platform (web + Flutter app) that scrapes live product data from Amazon, Flipkart and Croma and recommends the best deal across platforms for a given budget.",
+    "points": [
+      "Automated scraping pipeline (Python) pulling live price, availability and specs from Amazon, Flipkart and Croma via the Scrapdo API",
+      "OpenAI-powered analysis layer that compares listings across platforms and surfaces the single best offer for the user's budget and category",
+      "MERN backend and API serving both the trustfolio.in website and the Flutter mobile app from one data source",
+      "Freelance engagement — built and now maintain/optimize the scraping and recommendation pipeline for accuracy and API cost"
+    ],
+    "technology": ["Flutter", "React", "Node.js", "Python", "MongoDB", "Scrapdo API", "OpenAI API"],
+    "icon": "ai",
+    "status": "Freelance Project",
+    "link": "https://trustfolio.in"
+  },
+  {
+    "id": 2,
+    "title": "SellWhatUMade",
+    "description": "Multi-vendor marketplace enabling home-based artisans and small makers to list, showcase and sell handmade products.",
+    "points": [
+      "Vendor onboarding and verification flow so artisans can start selling without friction",
+      "Product catalog with category and variant management for handmade, one-off inventory",
+      "End-to-end order management covering checkout, order status and fulfillment for buyers and sellers",
+      "Built and deployed the full stack solo — schema design through to production hosting"
+    ],
+    "technology": ["React", "Node.js", "MongoDB"],
+    "icon": "store",
+    "status": "Independent Project",
+    "link": "https://sellwhatumade.com"
+  },
+  {
+    "id": 3,
+    "title": "Gem Control",
+    "description": "Portable jewellery shop management system covering billing, inventory and customer records.",
+    "points": [
+      "Billing, inventory and customer record management built for single-shop retail use",
+      "Packaged to run directly from a USB drive with zero installation on the shop's PC",
+      "Designed offline-first so it works reliably without a stable internet connection",
+      "Traded typical web-app convenience for portability to match how the client actually works"
+    ],
+    "technology": ["React", "Node.js", "MongoDB"],
+    "icon": "gem",
+    "status": "Independent Project"
+  },
+  {
+    "id": 4,
+    "title": "GoEventify",
+    "description": "Event vendor marketplace connecting customers with caterers, decorators, photographers and venues.",
+    "points": [
+      "Vendor listings with search and filtering across categories (catering, decor, photography, venues)",
+      "Enquiry-to-booking flow that turns a vendor search into a direct booking conversation",
+      "Vendor-facing dashboard for managing listings and incoming enquiries",
+      "Architected for scale as more vendor categories and cities get added"
+    ],
+    "technology": ["React", "Node.js"],
+    "icon": "event",
+    "status": "Independent Project",
+    "link": "https://goeventify.com"
+  }
+]

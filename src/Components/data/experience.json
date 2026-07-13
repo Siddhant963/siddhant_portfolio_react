@@ -1,41 +1,30 @@
 [
-       {
-         "role": "PHP Developer",
-         "company": "72 DRAGONS, LLC",
-         "employmentType": "Full-time",
-         "duration": "Mar 2024 - Present",
-         "tenure": "10 mos",
-         "location": "Hong Kong SAR · Remote",
-         "description": "72 Dragons’ global production services supports many types of creative organizations across a broad range of services.where i am working as a backend php developer",
-        
-         "skills": ["PHP, ", "SQL ,", "Workbench, ","AJAX ,", "Testing" ," and more..."]
- ,
-         "profile": "../assets/72_dragons.jpg"
-       },
-       {
-         "role": "Founder",
-         "company": "DEV PLUS CODE",
-         "employmentType": "Part-time",
-         "duration": "Mar 2023 - Present",
-         "tenure": "1 yr 10 mos",
-         "location": "Jabalpur, Madhya Pradesh, India · On-site",
-         "description": "Founder and Instructor at Devpluscode Community, Jabalpur, India January 2023 - Present",
-         "skills": ["Management,", "Leadership,", "Teaching" ," and more..."]
-         ,
-         "profile": "../assets/devcode.jpg"
-       },
-       {
-         "role": "Intern",
-         "company": "The Sparks Foundation",
-         "employmentType": "Internship",
-         "duration": "Feb 2023 - Mar 2023",
-         "tenure": "2 mos",
-         "location": "Remote",
-         "description": "Web Development and Design Intern at The Sparks Foundation, Singapore Feb 2023 - March 2023",
-         "skills": ["HTML,", "CSS,", "SQL,", "Postman API," ,"php,","phpmyadmin" ," and more..."],
-         "certificate": "internship_certification.pdf",
-         "profile": "../assets/spark.jpg"
-       }
-     ]
-   
-   
+  {
+    "id": 1,
+    "role": "Backend Developer",
+    "company": "72 Dragons LLC",
+    "duration": "Mar 2024 – Jul 2026",
+    "location": "Hong Kong (Remote)",
+    "points": [
+      "Owned backend development for two production products end to end — API design, database schema, business logic, and AWS deployment.",
+      "72 Dragons Art Website — Built an e-commerce platform where artists showcase and sell their artwork. Developed Core PHP (OOP) REST APIs for artwork listings, artist profiles, uploads, orders and validation utilities, integrated with a React frontend.",
+      "Sprint Management Tool — Built an internal Node.js + Express + React tool to assign and track employee tasks, sprints and project progress, with automated email notifications for assignments, status changes and deadlines.",
+      "Deployed and maintained both applications on AWS EC2, with Amazon S3 for artwork and media storage.",
+      "Ran structured QA and regression testing across web and mobile views, logging and tracking defects through to closure with the product team."
+    ],
+    "skills": ["PHP (OOP)", "Node.js", "Express.js", "React", "MySQL", "AWS EC2", "AWS S3", "REST APIs"]
+  },
+  {
+    "id": 2,
+    "role": "Full Stack Developer Intern",
+    "company": "Spark Foundation",
+    "duration": "Nov 2023 – Mar 2024",
+    "location": "Remote",
+    "points": [
+      "Find Blood Donor Near Me — Developed a MERN web application that helps patients and hospitals locate registered blood donors near their location.",
+      "Implemented donor registration, blood-group and proximity based donor search, and REST APIs using Node.js, Express and MongoDB.",
+      "Built the React frontend and deployed the application on AWS EC2 with S3 for image storage."
+    ],
+    "skills": ["React", "Node.js", "Express.js", "MongoDB", "AWS EC2", "AWS S3"]
+  }
+]

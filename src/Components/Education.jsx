@@ -1,16 +1,16 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { FaBriefcase } from "react-icons/fa";
-import exprience from "./data/experience.json";
+import { FaGraduationCap } from "react-icons/fa";
+import education from "./data/education.json";
 
 const fadeUp = {
   hidden: { opacity: 0, y: 30 },
   show: { opacity: 1, y: 0, transition: { duration: 0.6, ease: "easeOut" } },
 };
 
-const Exprerince = () => {
+const Education = () => {
   return (
-    <div className="section" id="ex">
+    <div className="section" id="education">
       <div className="container">
         <motion.div
           initial="hidden"
@@ -18,45 +18,32 @@ const Exprerince = () => {
           viewport={{ once: true, amount: 0.3 }}
           variants={fadeUp}
         >
-          <div className="section-tag">Career Path</div>
-          <h2 className="section-title">Professional Experience</h2>
-          <p className="section-desc">
-            Two years of shipping production backend systems and full-stack features
-            for real companies and users.
-          </p>
+          <div className="section-tag">Academics</div>
+          <h2 className="section-title">Education</h2>
         </motion.div>
 
         <div className="timeline">
-          {exprience.map((data, i) => (
+          {education.map((data, i) => (
             <motion.div
               key={data.id}
-              className="ex_item glass"
+              className="ex_item edu_item glass"
               initial={{ opacity: 0, x: -30 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true, amount: 0.2 }}
               transition={{ duration: 0.55, delay: i * 0.12, ease: "easeOut" }}
             >
               <div className="node">
-                <FaBriefcase />
+                <FaGraduationCap />
               </div>
               <div className="content">
                 <div className="top_row">
-                  <h3>{data.role}</h3>
+                  <h3>{data.degree}</h3>
                   <span className="duration">{data.duration}</span>
                 </div>
-                <span className="company">{data.company}</span>
+                <span className="company">{data.school}</span>
                 <span className="location">{data.location}</span>
-                <ul>
-                  {data.points.map((pt, idx) => (
-                    <li key={idx}>{pt}</li>
-                  ))}
-                </ul>
                 <div className="tag_row">
-                  {data.skills.map((s) => (
-                    <span className="tag_pill" key={s}>
-                      {s}
-                    </span>
-                  ))}
+                  <span className="tag_pill">{data.score}</span>
                 </div>
               </div>
             </motion.div>
@@ -67,4 +54,4 @@ const Exprerince = () => {
   );
 };
 
-export default Exprerince;
+export default Education;

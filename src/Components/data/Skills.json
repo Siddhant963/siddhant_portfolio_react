@@ -1,39 +1,22 @@
 [
-     {
-       "title": "HTML",
-       "imageSrc": "../assets/html-image.png"
-     },
-     {
-       "title": "CSS",
-       "imageSrc": "../assets/css-image.png"
-     },
-     {
-       "title": "JavaScript",
-       "imageSrc": "../assets/javascript-image.png"
-     },
-     {
-       "title": "React",
-       "imageSrc": "../assets/react-image.png"
-     },
-     {
-       "title": "Bootstrap",
-       "imageSrc": "../assets/bootstrep-image.png"
-     },
-     {
-       "title": "Tailwind",
-       "imageSrc": "../assets/tailwind-image.png"
-     },
-     {
-       "title": "PHP",
-       "imageSrc": "../assets/php-image.png"
-     },
-     {
-       "title": "SQL",
-       "imageSrc": "../assets/sql-image.png"
-     },
-     {
-       "title": "GitHub",
-       "imageSrc": "../assets/github-image.png"
-     }
-   ]
-   
+  {
+    "category": "Frontend",
+    "items": ["React.js", "Next.js", "Tailwind CSS", "Flutter"]
+  },
+  {
+    "category": "Backend",
+    "items": ["Node.js", "Express.js", "NestJS", "PHP (Core PHP / OOP)", "REST APIs"]
+  },
+  {
+    "category": "Databases",
+    "items": ["MySQL", "PostgreSQL", "MongoDB"]
+  },
+  {
+    "category": "Cloud & DevOps",
+    "items": ["AWS EC2", "AWS S3", "Docker", "CI/CD", "Git", "GitHub"]
+  },
+  {
+    "category": "Practices",
+    "items": ["API Design", "Database Schema Design", "Agile / Sprint Workflow", "QA & Regression Testing"]
+  }
+]
